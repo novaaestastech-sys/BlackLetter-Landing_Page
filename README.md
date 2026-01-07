@@ -1,4 +1,4 @@
-# BlackLetter | The Operating System for Modern Law
+# BlackLetter | The AI-Powered Workspace Solution for Modern Law
 
 A high-end, minimalist landing page for a next-gen LegalTech platform. Built with Next.js, Tailwind CSS, and Framer Motion.
 
@@ -15,3 +15,4 @@ A high-end, minimalist landing page for a next-gen LegalTech platform. Built wit
   - `layout/`: Navbar, Footer.
   - `sections/`: Hero, Problem, Features, Leadership.
   - `ui/`: Reusable primitives (Buttons, Cards).
+
