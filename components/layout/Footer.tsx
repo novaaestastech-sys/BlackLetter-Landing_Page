@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Linkedin } from "lucide-react";
 
 export function Footer() {
     return (
@@ -18,15 +17,7 @@ export function Footer() {
                     <Link href="/data-security" className="hover:text-foreground transition-colors">Data Security</Link>
                     <Link href="/compliance" className="hover:text-foreground transition-colors">Compliance</Link>
                     <a href="mailto:novaaestastech@gmail.com" className="hover:text-foreground transition-colors">Contact Support</a>
-                    <a
-                        href="https://www.linkedin.com/company/nova-aestas-tech/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Visit BlackLetter on LinkedIn"
-                        className="inline-flex items-center justify-center rounded-full text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                        <Linkedin className="h-5 w-5" />
-                    </a>
+                    <a href="https://www.linkedin.com/company/nova-aestas-tech/" className="hover:text-foreground transition-colors">LinkedIn</a>
                 </div>
 
                 <div className="pt-8 text-xs font-sans text-muted-foreground/50">
