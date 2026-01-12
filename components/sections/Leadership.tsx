@@ -32,7 +32,7 @@ const leaders = [
         role: "Founding Engineer",
         quote: "The best way to predict the future is to invent it.",
         initials: "PY",
-        image: "/founders/piyush.jpeg",
+        image: "/founders/piyush.png",
     },
     {
         name: "Kinshuk Saini",
