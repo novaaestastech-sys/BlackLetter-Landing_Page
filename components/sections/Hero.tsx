@@ -19,7 +19,7 @@ export function Hero() {
                         Define The Future
                     </span>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium tracking-tight leading-[1.1] text-primary">
-                        The Operating System <br />
+                        AI-Powered Workspace Solution <br />
                         <span className="italic text-muted-foreground">for</span> Modern Law.
                     </h1>
                 </motion.div>
@@ -57,3 +57,4 @@ export function Hero() {
         </section>
     );
 }
+
