@@ -10,12 +10,14 @@ const leaders = [
         quote:
             "I believe in the barter system. Firms give us their trust and we give them invulnerability.",
         initials: "AM",
+        image: "/founders/Apurv.jpeg",
     },
     {
         name: "Nalin Tiwary",
         role: "Co-Founder & CTO",
         quote: "Code is only as good as the compliance it enforces.",
         initials: "NT",
+        image: "/founders/nalin.jpeg",
     },
     {
         name: "Rudra Kumar",
@@ -23,18 +25,21 @@ const leaders = [
         quote:
             "Execution is the silent discipline that turns vision into market reality.",
         initials: "RK",
+        image: "/founders/rudra.jpeg",
     },
     {
         name: "Piyush Yadav",
         role: "Founding Engineer",
         quote: "The best way to predict the future is to invent it.",
         initials: "PY",
+        image: "/founders/piyush.jpeg",
     },
     {
         name: "Kinshuk Saini",
         role: "Founding Engineer",
         quote: "The only way to do great work is to love what you do.",
         initials: "KS",
+        image: "/founders/kinshuk.jpeg",
     }
 ];
 
@@ -71,7 +76,7 @@ export function Leadership() {
                             className="flex flex-col items-center text-center space-y-6"
                         >
                             <Avatar className="h-32 w-32 grayscale hover:grayscale-0 transition-all duration-500">
-                                <AvatarImage src={`/avatars/${leader.initials}.jpg`} />
+                                <AvatarImage src={leader.image} alt={`${leader.name} portrait`} />
                                 <AvatarFallback className="bg-secondary text-2xl font-serif text-primary">
                                     {leader.initials}
                                 </AvatarFallback>
@@ -85,7 +90,7 @@ export function Leadership() {
                                 </p>
                             </div>
                             <p className="text-muted-foreground italic font-serif text-lg leading-relaxed max-w-xs">
-                                "{leader.quote}"
+                                &#34;{leader.quote}&#34;
                             </p>
                         </motion.div>
                     ))}
@@ -103,7 +108,7 @@ export function Leadership() {
                             className="flex flex-col items-center text-center space-y-6"
                         >
                             <Avatar className="h-32 w-32 grayscale hover:grayscale-0 transition-all duration-500">
-                                <AvatarImage src={`/avatars/${leader.initials}.jpg`} />
+                                <AvatarImage src={leader.image} alt={`${leader.name} portrait`} />
                                 <AvatarFallback className="bg-secondary text-2xl font-serif text-primary">
                                     {leader.initials}
                                 </AvatarFallback>
@@ -117,7 +122,7 @@ export function Leadership() {
                                 </p>
                             </div>
                             <p className="text-muted-foreground italic font-serif text-lg leading-relaxed max-w-xs">
-                                "{leader.quote}"
+                                &#34;{leader.quote}&#34;
                             </p>
                         </motion.div>
                     ))}
