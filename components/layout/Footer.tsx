@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Linkedin } from "lucide-react";
 
 export function Footer() {
     return (
@@ -13,10 +14,19 @@ export function Footer() {
                     Enquire for Enterprise Access
                 </Button>
 
-                <div className="flex flex-col md:flex-row gap-8 mt-12 text-sm font-sans text-muted-foreground font-medium">
+                <div className="flex flex-col md:flex-row gap-8 mt-12 text-sm font-sans text-muted-foreground font-medium items-center">
                     <Link href="/data-security" className="hover:text-foreground transition-colors">Data Security</Link>
                     <Link href="/compliance" className="hover:text-foreground transition-colors">Compliance</Link>
                     <a href="mailto:novaaestastech@gmail.com" className="hover:text-foreground transition-colors">Contact Support</a>
+                    <a
+                        href="https://www.linkedin.com/company/nova-aestas-tech/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Visit BlackLetter on LinkedIn"
+                        className="inline-flex items-center justify-center rounded-full text-muted-foreground hover:text-foreground transition-colors"
+                    >
+                        <Linkedin className="h-5 w-5" />
+                    </a>
                 </div>
 
                 <div className="pt-8 text-xs font-sans text-muted-foreground/50">
