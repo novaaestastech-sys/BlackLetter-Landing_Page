@@ -42,9 +42,11 @@ export default function RootLayout({
         >
           <ConditionalThreads />
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
   );
 }
+
 
