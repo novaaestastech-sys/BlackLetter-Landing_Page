@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import ConditionalThreads from "@/components/ConditionalThreads";
 
 const playfair = Playfair_Display({
@@ -46,3 +47,4 @@ export default function RootLayout({
     </html>
   );
 }
+
